@@ -27,6 +27,12 @@ void Faker::setRandomNumber(int randomNumber) { this->randomNumber = randomNumbe
 ```
 Faker.cpp
 <br>
+The Faker class is a simple class that encapsulates a random number. 
+<br>
+The default constructor initializes the random number generator with the current time, and the parameterized constructor allows setting the random number directly. 
+<br>
+The getRandomNumber() and setRandomNumber() functions provide access to the random number value.
+<br>
 ```cpp
 
 Histogram::Histogram() {}
@@ -49,6 +55,12 @@ string Histogram::getHistogram() const {
 ```
 Histogram.cpp
 <br>
+The Histogram class is a simple class that stores a collection of integer data points. 
+<br>
+The addData() function allows adding new data points to the collection, and the getHistogram() function returns a string representation of the collected data.
+<br>
+The default constructor and destructor are empty, as there are no special initialization or cleanup requirements for this class.
+<br>
 ```cpp
 
 Player::Player() : name(""), id("") {}
@@ -64,6 +76,10 @@ void Player::setId(const string &id) { this->id = id; }
 ```
 Player.cpp
 <br>
+The Player class is a simple class that represents a player with a name and an ID.
+<br>
+The class provides constructors to initialize the player's name and ID, as well as getter and setter functions to access and modify these values.
+<br>
 ```cpp
 
 Quiz::Quiz() : question(""), answer("") {}
@@ -77,4 +93,8 @@ string Quiz::getAnswer() const { return answer; }
 void Quiz::setAnswer(const string &answer) { this->answer = answer; }
 ```
 Quiz.cpp
+<br>
+The Quiz class is a simple class that represents a quiz with a question and an answer.
+<br>
+The class provides constructors to initialize the quiz's question and answer, as well as getter and setter functions to access and modify these values.
 <br>

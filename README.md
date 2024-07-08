@@ -1,6 +1,6 @@
 # Quiz_game
 <br>
-A Quiz about Professional Gamer'FAKER'
+A Quiz about Professional Gamer 'FAKER'
 <br>
 
 # Result

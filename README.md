@@ -1,7 +1,10 @@
 # Quiz_game
 <br>
-A quiz about professional gamers FAKER
+A Quiz about Professional Gamer'FAKER'
 <br>
+
+# Result
+![image](https://github.com/LionelSeonuk/Quiz_Game/assets/167200555/d93bf4f9-6f31-43b7-bdc0-c2e0330114bd)
 
 # Implementation Description
 1. We're going to prepare a quiz about LOL professional gamers FAKER.
